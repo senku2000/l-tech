@@ -49,7 +49,7 @@ export default {
     }
 }
 </script>
-<style>
+<style scoped>
 .btn{
     top:0px;
     bottom:0px;

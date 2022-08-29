@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-color flex h-screen text-white">
+    <div class="bg-color flex text-white" :style="{'min-height':'100vh'}">
        
        <main class="w-full">
             
@@ -19,15 +19,15 @@
             <slide>
 
                 <slide-item :index="0">
-                    <section class="w-10/12 mx-auto mt-20 flex items-center" >
+                    <section class="md:w-10/12 w-11/12 mx-auto mt-20 mb-10 flex items-center md:flex-row flex-col" >
 
-                        <div class="w-1/2">
-                                <img src="@/assets/img/3.png" alt="" class="w-10/12 h-80">
+                        <div class="md:w-1/2 w-2/3 my-2 mx-auto">
+                                <img src="@/assets/img/5.png" alt="" class="sm:w-10/12 w-full mx-auto h-80">
                         </div>
 
-                        <div class="w-1/2 text-center">
+                        <div class="md:w-1/2 w-10/12 text-center">
 
-                                <h2 class="text-5xl font-medium mb-8">
+                                <h2 class="lg:text-5xl text-4xl font-medium md:mt-auto mt-5 mb-8">
                                     Concepion de site web 
                                 </h2>
 
@@ -37,25 +37,21 @@
                                     professionnelle  
                                 </p>
 
-                                <!-- <router-link to="/" class="block mx-aut w-max px-8 py-2 border-2 rounded-full mt-8 shadow hover:bg-white transition duration-300 hover:text-blue-700">
-                                    Learn more
-                                </router-link> -->
-
                         </div>
 
                     </section>
                 </slide-item>
 
                 <slide-item :index="1">
-                    <section class="w-10/12 mx-auto mt-20 flex items-center" >
+                    <section class="md:w-10/12 w-11/12 mx-auto mt-20 mb-10 flex items-center md:flex-row flex-col" >
 
-                        <div class="w-1/2">
-                                <img src="@/assets/img/3.png" alt="" class="w-10/12 h-80">
+                        <div class="md:w-1/2 w-2/3 my-2 mx-auto">
+                                <img src="@/assets/img/mobile_app.png" alt="" class="sm:w-10/12 w-full mx-auto h-80">
                         </div>
 
-                        <div class="w-1/2 text-center">
+                        <div class="md:w-1/2 w-10/12 text-center">
 
-                                <h2 class="text-5xl font-medium mb-8">
+                                <h2 class="lg:text-5xl text-4xl font-medium mb-8">
                                     Creation d'applications Mobile 
                                 </h2>
 
@@ -64,25 +60,21 @@
                                     - si vous en avez - d'une application mobile selon votre demande  
                                 </p>
 
-                                <!-- <router-link to="/" class="block mx-aut w-max px-8 py-2 border-2 rounded-full mt-8 shadow hover:bg-white transition duration-300 hover:text-blue-700">
-                                    Learn more
-                                </router-link> -->
-
                         </div>
 
                     </section>
                 </slide-item>
 
                 <slide-item :index="2">
-                    <section class="w-10/12 mx-auto mt-20 flex items-center" >
+                    <section class="md:w-10/12 w-11/12 mx-auto mt-20 mb-10 flex items-center md:flex-row flex-col" >
 
-                        <div class="w-1/2">
-                                <img src="@/assets/img/3.png" alt="" class="w-10/12 h-80">
+                        <div class="md:w-1/2 w-2/3 my-2 mx-auto">
+                                <img src="@/assets/img/4.png" alt="" class="sm:w-10/12 w-full mx-auto h-80">
                         </div>
 
-                        <div class="w-1/2 text-center">
+                        <div class="md:w-1/2 w-10/12 text-center">
 
-                                <h2 class="text-5xl font-medium mb-8">
+                                <h2 class="lg:text-5xl text-4xl font-medium mb-8">
                                     Maintenance 
                                 </h2>
 
@@ -90,10 +82,6 @@
                                     Vos sites web et applications mobile déjà existantent, 
                                     peuvent également bénéficier de nos services de maintenance 
                                 </p>
-
-                                <!-- <router-link to="/" class="block mx-aut w-max px-8 py-2 border-2 rounded-full mt-8 shadow hover:bg-white transition duration-300 hover:text-blue-700">
-                                    Learn more
-                                </router-link> -->
 
                         </div>
 
