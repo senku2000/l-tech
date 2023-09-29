@@ -40,7 +40,8 @@
         
         data(){
             return {
-                visible: false
+                visible: false,
+                flag: 'xxxxxxxxxxxxxx'
             }
         },
 
