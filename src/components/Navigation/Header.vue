@@ -41,7 +41,7 @@
         data(){
             return {
                 visible: false,
-                flag: 'xxxxxxxxxxxxxx'
+                flag: 'CTF_under_construction_213, tu es fou pourquoi tu as mis le secret ici. je déplace moi même...................'
             }
         },
 
