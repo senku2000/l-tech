@@ -42,6 +42,7 @@ export default {
 .slide-to-right-enter-active{
     position: absolute;
     left:0;
+    flag:""
     top:0;
     animation: slideEnterRight 1.5s ;
 }
@@ -101,4 +102,5 @@ export default {
         opacity: 0;
     }
 }
+<!-- 4354465f3631375f3358503035313731304e5f483334443533347243485f33323137343534 --!>
 </style>
